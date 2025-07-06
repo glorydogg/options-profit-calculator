@@ -36,8 +36,8 @@ def main():
     print(f"Premium: {option.premium}")
     print(f"Market Price: {option.market_price}")
     print(f"Contract Size: {option.contract_size}")
-    print(f"Profit: ${option.calculate_profit(market_price):.2f}")
-    print(f"Breakeven: ${option.calculate_breakeven(market_price):.2f}")
+    print(f"Profit: $ {option.calculate_profit(market_price):.2f}")
+    print(f"Breakeven: ${option.calculate_breakeven():.2f}")
     print(f"Max Profit: {option.max_profit()}")
     print(f"Max Loss: {option.max_loss()}")
     

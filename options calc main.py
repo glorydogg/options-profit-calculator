@@ -48,16 +48,4 @@ class Options:
 
 
         
-option1 = Options(
-    premium=3,
-    strike_price=50,
-    contract_size=100,
-    option_type='long call',
-    market_price=55
-)
 
-profit = option1.calculate_profit(option1.market_price)
-print("Profit:", profit)
-
-breakeven = option1.calculate_breakeven(option1.market_price)
-print("Breakeven:", breakeven)

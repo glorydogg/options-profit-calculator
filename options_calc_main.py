@@ -42,7 +42,6 @@ class Options:
         
         elif self.option_type.lower() == 'short put':
             breakeven = self.strike_price - self.premium
-
         return breakeven
     
     def max_profit(self):
